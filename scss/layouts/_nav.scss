@@ -11,6 +11,7 @@
         margin-top: 40px;
         margin-left: 3px;
         border-radius: 50%;
+        cursor: pointer;
         &--img {
             position: absolute;
             width: 100%;
@@ -23,6 +24,7 @@
         margin-top: 40px;
         text-align: center;
         position: relative;
+        cursor: pointer;
         li {
             padding: 10px 0;
             display: flex;
