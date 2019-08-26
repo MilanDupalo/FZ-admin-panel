@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: snow; }
+
+.content {
+  width: 100%;
+  height: 100vh; }
+
+.header {
+  width: 100%;
+  height: 30px;
+  background: white;
+  position: relative;
+  color: black;
+  box-shadow: 0px -1px 2px 0px #151515;
+  z-index: 1; }
+  .header__bar {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%); }
+  .header__tittle {
+    position: absolute;
+    top: 50%;
+    left: 160px;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase; }
+  .header__user {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 20px; }
+
+.navbar {
+  width: 40px;
+  height: 100vh;
+  position: absolute;
+  background-color: #151515;
+  top: 0; }
+  .navbar__user-icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 3px;
+    border-radius: 50%; }
+    .navbar__user-icon--img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 2px solid #009081; }
+  .navbar__icons {
+    margin-top: 40px;
+    text-align: center;
+    position: relative; }
+    .navbar__icons li {
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 40px;
+      transition: 225ms; }
+      .navbar__icons li:hover {
+        width: 45px;
+        outline: none;
+        background-color: snow; }
+      .navbar__icons li i {
+        font-size: 1.5rem;
+        color: white;
+        width: 40px;
+        transition: 225ms;
+        outline: none; }
+        .navbar__icons li i:hover {
+          width: 45px;
+          outline: none;
+          color: #009081; }
+
+/*# sourceMappingURL=app.css.map */
