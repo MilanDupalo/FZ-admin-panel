@@ -1,0 +1,20 @@
+{
+  "name": "fz-admin-panel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "scp -r ./* root@174.138.10.209:/var/www/admin-panel-design.stage-test.ml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilanDupalo/FZ-admin-panel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilanDupalo/FZ-admin-panel/issues"
+  },
+  "homepage": "https://github.com/MilanDupalo/FZ-admin-panel#readme"
+}
