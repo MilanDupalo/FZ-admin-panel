@@ -135,6 +135,12 @@ body {
     .login__btn:hover {
       background: #151515;
       color: white; }
+  .login__wrong {
+    position: absolute;
+    left: 5%;
+    bottom: 15px;
+    color: red;
+    font-weight: bold; }
 
 .index-container {
   width: 300px;
@@ -144,7 +150,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  text-align: center; }
   .index-container a {
     text-transform: uppercase;
     font-weight: bold;

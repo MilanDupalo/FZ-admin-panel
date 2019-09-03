@@ -68,4 +68,11 @@
             color: white;
         }
     }
+    &__wrong {
+        position: absolute;
+        left: 5%;
+        bottom: 15px;
+        color: red;
+        font-weight: bold;
+    }
 }
