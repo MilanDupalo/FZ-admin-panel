@@ -1,6 +1,7 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif; }
 
 body {
   padding: 0;
@@ -70,5 +71,69 @@ body {
           width: 45px;
           outline: none;
           color: #009081; }
+
+.bg-login {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6); }
+
+.login {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  transition: 225ms;
+  box-shadow: 1px 1px 5px white; }
+  .login:hover {
+    box-shadow: 1px 1px 50px white; }
+  .login__title {
+    text-align: center;
+    padding-top: 10px; }
+  .login__form {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .login__form--content {
+      width: 45%; }
+      .login__form--content input {
+        width: 90%;
+        padding: 10px 5%;
+        background: transparent;
+        border: 1px solid #151515;
+        outline: none;
+        color: black;
+        border-radius: 3px;
+        margin-top: 5px; }
+  .login__forgot {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: end; }
+    .login__forgot a {
+      color: black;
+      text-decoration: none; }
+  .login__btn {
+    width: 30%;
+    float: right;
+    margin: 15px 5%;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: transparent;
+    border: 1px solid #151515;
+    border-radius: 3px;
+    outline: none;
+    transition: 225ms;
+    cursor: pointer; }
+    .login__btn:hover {
+      background: #151515;
+      color: white; }
 
 /*# sourceMappingURL=app.css.map */
