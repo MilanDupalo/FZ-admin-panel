@@ -1,0 +1,14 @@
+.index-container {
+    width: 300px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    @include absolute-center;
+    a {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+}
